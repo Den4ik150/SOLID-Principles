@@ -3,7 +3,7 @@
 The SOLID principles provide guidelines for building clean, scalable, and maintainable code. Here's a breakdown of each principle with JavaScript examples:
 
 <details>
-<summary>S</summary>
+<summary>S - Single Responsibility Principle (SRP)</summary>
 
 ## 1. Single Responsibility Principle (SRP)
   
@@ -32,7 +32,8 @@ class CalendarExporter {
 </details>
 
 <details>
-<summary>O</summary>
+<summary>O - Open-Closed Principle (OCP)</summary>
+  
 ## 2. Open-Closed Principle (OCP)
 
   **Definition**: Software entities should be open for extension but closed for modification. We can add new functionality without changing existing code.
@@ -56,7 +57,7 @@ class ImportantEvent extends Event {
 </details>
 
 <details>
-<summary>L</summary>
+<summary>L - Liskov Substitution Principle (LSP)</summary>
 
 ## 3. Liskov Substitution Principle (LSP)
 
@@ -87,7 +88,7 @@ class Calendar {
 
 <details>
   
-<summary>I</summary>
+<summary>I - Interface Segregation Principle (ISP)</summary>
 
 ## 4. Interface Segregation Principle (ISP)
 
@@ -118,7 +119,7 @@ class Scanner implements Scannable {
 </details>
 
 <details>
-<summary>D</summary>
+<summary>D - Dependency Inversion Principle (DIP)</summary>
 
 ## 5. Dependency Inversion Principle (DIP)
 
