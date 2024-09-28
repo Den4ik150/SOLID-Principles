@@ -2,7 +2,12 @@
 
 The SOLID principles provide guidelines for building clean, scalable, and maintainable code. Here's a breakdown of each principle with JavaScript examples:
 
+# D
+
+<details>
+  
 ## 1. Single Responsibility Principle (SRP)
+  
 **Definition**: A class should have only one reason to change. It should only have one responsibility or function.
 
 ### Example:
@@ -24,7 +29,8 @@ class CalendarExporter {
 }
 ```
 - Explanation: Responsibilities are split among different classes (Event, Calendar, CalendarExporter) to ensure each has a single responsibility.
-
+  
+</details>
 ## 2. Open-Closed Principle (OCP)
 
   **Definition**: Software entities should be open for extension but closed for modification. We can add new functionality without changing existing code.
